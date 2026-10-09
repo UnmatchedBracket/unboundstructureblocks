@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.isageek.bracket.unboundstructureblocks.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"BlockEntityWithBoundingBoxRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

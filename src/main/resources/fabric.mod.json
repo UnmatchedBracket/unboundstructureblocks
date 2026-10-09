@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "unboundstructureblocks",
+	"version": "${version}",
+	"name": "Unbound Structure Blocks",
+	"description": "structure block range be beeg",
+	"authors": [
+		"Unmatched Bracket"
+	],
+	"contact": {
+		"homepage": "https://bracket.isageek.net/",
+		"sources": "https://github.com/UnmatchedBracket/unboundstructureblocks"
+	},
+	"license": "Unlicense",
+	"icon": "assets/unboundstructureblocks/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"unboundstructureblocks.mixins.json",
+		{
+			"config": "unboundstructureblocks.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26.3",
+		"java": ">=25"
+	}
+}
